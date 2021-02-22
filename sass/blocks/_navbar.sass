@@ -1,0 +1,39 @@
+.navbar
+  &-wrapper
+    padding: 24px 0
+    @include flex ()
+  &-link
+    &__item
+      font-weight: normal
+      font-size: 1.2em
+      line-height: 21px
+      color: $dark
+      &:not(last-child)
+        margin-right: 65px
+      &:hover
+        border-bottom: 2px solid $blue
+  &-social
+    &__item
+      &:not(last-child)
+        margin-right: 20px
+  &-switcher
+    background-color: $grey
+    border-radius: 5px
+    border: none
+    padding: 7px 4px
+    &__item
+      text-decoration: none
+      color: #ffffff
+      font-weight: normal
+      font-size: 0.857em
+      line-height: 14px
+      padding-right: 3px
+      &-active
+        color: $dark
+        font-weight: normal
+        font-size: 0.857em
+        line-height: 14px
+        background-color: #ffffff
+        border-radius: 3px
+        border: none
+        padding: 2px 3px
